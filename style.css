@@ -16,6 +16,20 @@
   background-size: 100% 100%;
 }
 
-.text-center {
+.intro {
   margin-top: 30%;
+}
+
+.btn-group .btn {
+  margin-right: 5px;
+  border-radius: 5px !important;
+  background-color: #ebf0ee;
+}
+
+.button-padd {
+  padding: 4% !important;
+}
+
+.col-w {
+  width: 85% !important;
 }
