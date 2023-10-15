@@ -12,18 +12,36 @@
         <div class="container-fluid">
             <nav class="navbar bg-white">
                 <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <button class="d-md-none navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
+                    <div class="d-none d-md-block w-100">
+                        <div class="d-flex justify-content-center">
+                            <ul class="list-inline w-auto">
+                                <li class="list-inline-item">
+                                    <a class="fw-bold" href="#">Portfolio</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="fw-bold" href="#">About</a>
+                                </li>
+                                <li class="list-inline-item">
+                                    <a class="fw-bold" href="#">Contact</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
             </nav>
         </div>
     </header>
     <div class="container-fluid p-0">
         <div class="headline d-flex flex-column align-items-center">
-            <div class="text-center intro w-75">
-                <h1 class=" fw-bolder display-2 lh-base">Hey there.<br>I am Malik.<br><span class="text-success">I am a Software Developer.</span></h1>
-                <h4 class="fs-5 fw-normal lh-base"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</h4>
+            <div class="text-center intro w-75 d-flex flex-column align-items-center">
+                <h1 class="d-md-none fw-bolder display-2 lh-base">Hey there.<br>I am Malik.<br><span class="text-success">I am a Software Developer.</span></h1>
+                <h1 class="d-none d-md-block fw-bolder display-3 lh-sm">Hey there. I am Malik.</h1>
+                <h1 class="d-none d-md-block fw-bolder display-3 lh-sm text-success">I am a Software Developer.</h1>
+                <p class="d-md-none fs-5 fw-normal lh-base w-100 w-75"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
+                <p class="d-md-block d-none fs-5 fw-normal lh-base w-75"> I can help you build a product , feature or website Look through some of my work and experience! If you like what you see and have a project you need coded, don't hesitate to contact me.</p>
             </div>
             <div class="mt-4">
                 <svg xmlns="http://www.w3.org/2000/svg" width="171" height="21" viewBox="0 0 171 21" fill="none">
@@ -39,116 +57,112 @@
             <img src="./assets/arrowhead.svg" alt="arrow" class="rounded-circle border border-secondary-subtle p-2 mt-5">
         </div>  
     </div>
-    <div class="work-section mb-5">
+    <div class="work-section mb-5 d-flex flex-column align-items-center mt-5">
         <h1 class="text-center fw-bolder display-2 lh-base w-50 mx-auto">My Recent Works</h1>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-4 mt-5 p-0 col-w">
-                    <div class="card w-100" >
-                        <div class="d-flex flex-column align-items-center">
-                            <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0 d-flex flex-column align-items-center w-100">
-                            <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
-                            <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
-                                <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
-                                <button type="button" class="btn btn-sm p-0">CSS</button>
-                                <button type="button" class="btn btn-sm p-0">JavaScript</button>
-                                <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
+        <div class="row row-cols-1 row-cols-md-3 g-4 col-w">
+            <div class="col">
+                <div class="card w-100" >
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
+                    <div class="card-body p-0 d-flex flex-column align-items-center w-100">
+                        <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
+                        <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
+                            <button type="button" class="btn btn-sm p-0">CSS</button>
+                            <button type="button" class="btn btn-sm p-0">JavaScript</button>
+                            <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-4 mt-5 p-0 col-w">
-                    <div class="card w-100" >
-                        <div class="d-flex flex-column align-items-center">
-                            <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0 d-flex flex-column align-items-center w-100">
-                            <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
-                            <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
-                                <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
-                                <button type="button" class="btn btn-sm p-0">CSS</button>
-                                <button type="button" class="btn btn-sm p-0">JavaScript</button>
-                                <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 mt-5 p-0 col-w">
-                    <div class="card w-100" >
-                        <div class="d-flex flex-column align-items-center">
-                            <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0 d-flex flex-column align-items-center w-100">
-                            <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
-                            <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
-                                <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
-                                <button type="button" class="btn btn-sm p-0">CSS</button>
-                                <button type="button" class="btn btn-sm p-0">JavaScript</button>
-                                <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
-                        </div>
+                    <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
                     </div>
                 </div>
             </div>
-            <div class="row justify-content-center">
-                <div class="col-12 col-md-4 mt-5 p-0 col-w">
-                    <div class="card w-100" >
-                        <div class="d-flex flex-column align-items-center">
-                            <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0 d-flex flex-column align-items-center w-100">
-                            <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
-                            <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
-                                <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
-                                <button type="button" class="btn btn-sm p-0">CSS</button>
-                                <button type="button" class="btn btn-sm p-0">JavaScript</button>
-                                <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
+            <div class="col">
+                <div class="card w-100" >
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
+                    <div class="card-body p-0 d-flex flex-column align-items-center w-100">
+                        <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
+                        <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
+                            <button type="button" class="btn btn-sm p-0">CSS</button>
+                            <button type="button" class="btn btn-sm p-0">JavaScript</button>
+                            <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
                         </div>
                     </div>
-                </div>
-                <div class="col-12 col-md-4 mt-5 p-0 col-w">
-                    <div class="card w-100" >
-                        <div class="d-flex flex-column align-items-center">
-                            <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0 d-flex flex-column align-items-center w-100">
-                            <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
-                            <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
-                                <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
-                                <button type="button" class="btn btn-sm p-0">CSS</button>
-                                <button type="button" class="btn btn-sm p-0">JavaScript</button>
-                                <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-12 col-md-4 mt-5 p-0 col-w">
-                    <div class="card w-100" >
-                        <div class="d-flex flex-column align-items-center">
-                            <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
-                        <div class="card-body p-0 d-flex flex-column align-items-center w-100">
-                            <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
-                            <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
-                                <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
-                                <button type="button" class="btn btn-sm p-0">CSS</button>
-                                <button type="button" class="btn btn-sm p-0">JavaScript</button>
-                                <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
-                            </div>
-                        </div>
-                        <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
-                        </div>
+                    <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
                     </div>
                 </div>
             </div>
-        </div>
+            <div class="col">
+                <div class="card w-100" >
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
+                    <div class="card-body p-0 d-flex flex-column align-items-center w-100">
+                        <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
+                        <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
+                            <button type="button" class="btn btn-sm p-0">CSS</button>
+                            <button type="button" class="btn btn-sm p-0">JavaScript</button>
+                            <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-100" >
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
+                    <div class="card-body p-0 d-flex flex-column align-items-center w-100">
+                        <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
+                        <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
+                            <button type="button" class="btn btn-sm p-0">CSS</button>
+                            <button type="button" class="btn btn-sm p-0">JavaScript</button>
+                            <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-100" >
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
+                    <div class="card-body p-0 d-flex flex-column align-items-center w-100">
+                        <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
+                        <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
+                            <button type="button" class="btn btn-sm p-0">CSS</button>
+                            <button type="button" class="btn btn-sm p-0">JavaScript</button>
+                            <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card w-100" >
+                    <div class="d-flex flex-column align-items-center">
+                        <img src="./assets/Snapshoot1.png" class="card-img-top" alt="...">
+                    <div class="card-body p-0 d-flex flex-column align-items-center w-100">
+                        <h5 class="card-title text-center p-3 w-75">Multi-Post Stories Gain+Glory</h5>
+                        <div class="btn-group p-0 w-100" role="group" aria-label="Basic example">
+                            <button type="button" class="btn text-nowrap btn-sm p-0">Ruby on Rails</button>
+                            <button type="button" class="btn btn-sm p-0">CSS</button>
+                            <button type="button" class="btn btn-sm p-0">JavaScript</button>
+                            <button type="button" class="btn btn-sm m-0 p-0">HTML</button>
+                        </div>
+                    </div>
+                    <button type="button" class="btn btn-success button-padd w-50 mt-5 mb-4">See Project</button>
+                    </div>
+                </div>
+            </div>
+          </div>
     </div>
   </body>
 </html>
