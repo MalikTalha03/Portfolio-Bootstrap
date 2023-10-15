@@ -1,0 +1,15 @@
+.navbar-toggler {
+  margin-left: auto;
+  border-color: transparent !important;
+}
+
+.headline {
+  background-image: url(./assets/headerbg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.text-center {
+    margin-top: 30%;
+}
