@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Inter);
 
 .body {
-    font-family: 'Inter', sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
 }
 
 .navbar-toggler {
@@ -44,14 +44,13 @@
   border-radius: 10px !important;
 }
 
-
 .card-img {
-  height:17rem;
+  height: 17rem;
   background-color: #ebf0ee;
 }
 
 .btn-success {
-  background-color: #36B37F !;
+  background-color: #36b37f;
 }
 
 @media only screen and (min-width: 768px) {
@@ -69,7 +68,10 @@
     display: none;
   }
 
-  .list-inline-item a:link, a:visited, a:hover, a:active {
+  a:link,
+  a:visited,
+  a:hover,
+  .list-inline-item a:hover {
     text-decoration: none;
     color: #344563;
   }
