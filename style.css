@@ -39,6 +39,16 @@
   border-radius: 10px !important;
 }
 
+
+.card-img {
+  height:17rem;
+  background-color: #ebf0ee;
+}
+
+.btn-success {
+  background-color: #36B37F !;
+}
+
 @media only screen and (min-width: 768px) {
   .intro {
     margin: 6%;
