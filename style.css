@@ -27,8 +27,13 @@
   background-color: #ebf0ee;
 }
 
+.btn-group .btn:hover {
+  background-color: #36b37f;
+  color: #fff;
+}
+
 .button-padd {
-  padding: 4% !important;
+  padding: 3% 7% !important;
 }
 
 .col-w {
