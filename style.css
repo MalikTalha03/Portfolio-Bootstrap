@@ -1,0 +1,83 @@
+@import url(https://fonts.googleapis.com/css?family=Inter);
+
+.body {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.navbar-toggler {
+  margin-left: auto;
+  border-color: transparent !important;
+}
+
+.headline {
+  background-image: url(./assets/headerbg.png);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  margin-bottom: 35% !important;
+}
+
+.intro {
+  margin-top: 30%;
+}
+
+.btn-group .btn {
+  margin-right: 5px;
+  border-radius: 5px !important;
+  background-color: #ebf0ee;
+}
+
+.btn-group .btn:hover {
+  background-color: #36b37f;
+  color: #fff;
+}
+
+.button-padd {
+  padding: 3% 7% !important;
+}
+
+.col-w {
+  width: 85% !important;
+}
+
+.card {
+  border-radius: 10px !important;
+  overflow: hidden;
+}
+
+.card-img {
+  height: 17rem;
+  background-color: #ebf0ee;
+}
+
+.btn-success {
+  background-color: #36b37f;
+}
+
+.card-body {
+  border-radius: 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  .intro {
+    margin: 6%;
+  }
+
+  .headline {
+    background-image: url(./assets/deskheader.png);
+    margin-bottom: 0 !important;
+    padding: 0;
+  }
+
+  br {
+    display: none;
+  }
+
+  a:link,
+  a:visited,
+  a:hover,
+  .list-inline-item a:hover {
+    text-decoration: none;
+    color: #344563;
+  }
+}
