@@ -50,12 +50,31 @@
   background-color: #ebf0ee;
 }
 
+.image {
+  height: 12rem !important;
+}
+
+.frame {
+  border: 20px solid white !important;
+  border-radius: 50% ;
+}
+
 .btn-success {
   background-color: #36b37f;
 }
 
 .card-body {
   border-radius: 8px;
+}
+
+.col-w2 {
+  background-color: #EBF0EE !important;
+  height: 25rem !important;
+}
+
+.btn-about .btn {
+  background-color: white;
+  color: #36B37E;
 }
 
 @media only screen and (min-width: 768px) {
