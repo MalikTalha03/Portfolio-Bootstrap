@@ -76,9 +76,22 @@
   margin-top: 15%;
 }
 
+.marg-cont {
+  margin-top: 10%;
+}
+
 .btn-about .btn {
   background-color: white;
   color: #36B37E;
+}
+
+a:link,
+a:visited,
+a:hover,
+.email a:hover
+{
+  text-decoration: none;
+  color: #344563;
 }
 
 @media only screen and (min-width: 768px) {
