@@ -72,6 +72,10 @@
   height: 25rem !important;
 }
 
+.marg {
+  margin-top: 15%;
+}
+
 .btn-about .btn {
   background-color: white;
   color: #36B37E;
