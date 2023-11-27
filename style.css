@@ -27,6 +27,11 @@
   background-color: #ebf0ee;
 }
 
+.btn-about .btn {
+  background-color: white;
+  color: #36b37e;
+}
+
 .btn-group .btn:hover {
   background-color: #36b37f;
   color: #fff;
@@ -50,12 +55,42 @@
   background-color: #ebf0ee;
 }
 
+.image {
+  height: 12rem !important;
+}
+
+.frame {
+  border: 20px solid white !important;
+  border-radius: 50%;
+}
+
 .btn-success {
   background-color: #36b37f;
 }
 
 .card-body {
   border-radius: 8px;
+}
+
+.col-w2 {
+  background-color: #ebe0ee !important;
+  height: 25rem !important;
+}
+
+.marg {
+  margin-top: 15%;
+}
+
+.marg-cont {
+  margin-top: 10%;
+}
+
+a:link,
+a:visited,
+a:hover,
+.email a:hover {
+  text-decoration: none;
+  color: #344563;
 }
 
 @media only screen and (min-width: 768px) {
