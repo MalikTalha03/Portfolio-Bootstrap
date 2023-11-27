@@ -56,7 +56,7 @@
 
 .frame {
   border: 20px solid white !important;
-  border-radius: 50% ;
+  border-radius: 50%;
 }
 
 .btn-success {
@@ -68,7 +68,7 @@
 }
 
 .col-w2 {
-  background-color: #EBF0EE !important;
+  background-color: #ebe0ee !important;
   height: 25rem !important;
 }
 
@@ -80,18 +80,17 @@
   margin-top: 10%;
 }
 
-.btn-about .btn {
-  background-color: white;
-  color: #36B37E;
-}
-
 a:link,
 a:visited,
 a:hover,
-.email a:hover
-{
+.email a:hover {
   text-decoration: none;
   color: #344563;
+}
+
+.btn-about .btn {
+  background-color: white;
+  color: #36b37e;
 }
 
 @media only screen and (min-width: 768px) {
